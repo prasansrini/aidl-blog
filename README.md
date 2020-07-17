@@ -57,7 +57,6 @@ Also, add the `<service>` tag in `AndroidManifest.xml` inside `<application>` ta
     </intent-filter>
 </service>
 ```
-&nbsp;
 
 Now that we have implemented the Service part, we should go ahead and create another Android project for the client part. Please note that the AIDLs are very **case-sensitive**. Unfortunately, Android Studio is not mature enough to detect the syntax errors in an AIDL file. Any changes in an AIDL file would need a rebuild of the project.
 &nbsp;
