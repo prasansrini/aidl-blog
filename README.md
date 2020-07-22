@@ -1,3 +1,5 @@
+![ANDROID-AIDL](https://res.cloudinary.com/practicaldev/image/fetch/s--nAEiJC_k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--BuZSE9qE--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/7nb0or6d4it4qku8cuir.png)
+
 ### **Introduction**
 Hello there! I am going to talk about Android's parliamentary conversations. What do I mean by that? I mean, the IPC(Inter Process Communication) that is happening inside Android system. We are going to use AIDL for the so called "conversation". I will explain better and deeper in this article.
 
