@@ -1,10 +1,15 @@
-## **We all know it!**
+![ANDROID-AIDL](https://res.cloudinary.com/practicaldev/image/fetch/s--nAEiJC_k--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://res.cloudinary.com/practicaldev/image/fetch/s--BuZSE9qE--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/7nb0or6d4it4qku8cuir.png)
 
-Why is this a brand new post? Because, I am going to write about IPC of two different applications. Most people agree to disagree that it's pretty easy to understand AIDLs. But, there is saying(of mine), `"If you understand interfaces in OOP, you shall understand AIDL!"`. Well, Let's see what that saying really means, in detail.
+### **Introduction**
+Hello there! I am going to talk about Android's parliamentary conversations. What do I mean by that? I mean, the IPC(Inter Process Communication) that is happening inside Android system. We are going to use AIDL for the so called "conversation". I will explain better and deeper in this article.
+
+### **We all know it!**
+
+Why is this a brand new post? Because, it's not about the IPC of components inside one Android application. It's about the communication of two different applications. Most people agree to disagree that it's pretty easy to understand AIDLs. But, there is saying(of mine), `"If you understand interfaces in OOP, you shall understand AIDL!"`. Well, Let's see what that saying really means, in detail.
 
 ### **The AIDL unbolted.**
 
-Android Interface Definition Language(AIDL), is what you every time you Google AIDL. This doesn't explain what is really is. Let me explain. AIDL is an implementation to achieve Inter Process Communication(IPC) in Android. Diving deep, there is a program called `aidl`, which compiles the AIDL code and generates client(Proxy) and server(Stub) Java interfaces.
+Android Interface Definition Language(AIDL), is what you every time you Google AIDL. This doesn't explain what it really is. Let me explain! AIDL is an Android implementation to achieve Inter Process Communication(IPC) in between Android components. Diving deep, there is a program called `aidl`, which compiles the AIDL source code and generates client(Proxy) and server(Stub) Java interfaces.
 
 &nbsp;
 
@@ -128,4 +133,11 @@ Now, create a button and while clicking the button, call `iMyAidlInterface.getMe
 We are done with client and server parts. As of now, the Service is connected from another application. We can do any type of operations using the same. We can have data trasnfer,aynchronous calls, callbacks. More detailed implementation will be released in the second part of this series.
 &nbsp;
 
+**[AIDL source code](https://github.com/prasan29/aidl-blog)**
+&nbsp;
+
 ## Thank you, for reading. Happy interfacing!! :grinning: :slightly_smiling_face:
+
+&nbsp;
+
+![Visits](https://profile-counter.glitch.me/prasan29/count.svg)
