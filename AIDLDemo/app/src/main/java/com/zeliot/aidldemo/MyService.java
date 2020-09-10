@@ -7,19 +7,19 @@ import android.os.IBinder;
 import androidx.annotation.Nullable;
 
 public class MyService
-		extends Service {
+        extends Service {
 
-	private MyImplementor myImplementor;
+    private MyImplementor myImplementor;
 
-	@Override
-	public void onCreate() {
-		super.onCreate();
-		myImplementor = new MyImplementor();
-	}
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        myImplementor = new MyImplementor();
+    }
 
-	@Nullable
-	@Override
-	public IBinder onBind(Intent intent) {
-		return myImplementor;
-	}
+    @Nullable
+    @Override
+    public IBinder onBind(Intent intent) {
+        return myImplementor;
+    }
 }
