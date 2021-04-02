@@ -4,3 +4,5 @@ Android Interface Definition Language (AIDL) is used for IPCs in Android between
 ![Alt Text](https://dev-to-uploads.s3.amazonaws.com/i/prgype5k7uh08zi40kly.png)
 
 Medium Blog link: https://medium.com/zeliot/aidl-deep-dive-post-does-not-exist-part-i-38bacb7665d0
+
+![Visits](https://profile-counter.glitch.me/prasan29/count.svg)
