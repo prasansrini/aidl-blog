@@ -139,5 +139,3 @@ We are done with client and server parts. As of now, the Service is connected fr
 ## Thank you, for reading. Happy interfacing!! :grinning: :slightly_smiling_face:
 
 &nbsp;
-
-![Visits](https://profile-counter.glitch.me/prasan29/count.svg)
